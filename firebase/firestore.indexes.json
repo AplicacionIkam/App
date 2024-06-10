@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "municipio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "refEstado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nombreMun",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "municipio",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "referenciaEstado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nombreMun",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "colonia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "referenciaMun",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nombreCol",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "colonia",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "refMunicipio",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nombreCol",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "subCategoria",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "refCategoria",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nombreSubc",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}

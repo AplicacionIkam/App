@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "877233063554",
+    "project_id": "ikam-multitiendas",
+    "storage_bucket": "ikam-multitiendas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877233063554:android:a88294e460d84925cf969b",
+        "android_client_info": {
+          "package_name": "com.mycompany.ikam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmSpbAf6_eXTHSHpxxil4iZQf88oBDhcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877233063554:android:0219882b1e3043f5cf969b",
+        "android_client_info": {
+          "package_name": "ikammultitiendas.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmSpbAf6_eXTHSHpxxil4iZQf88oBDhcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
